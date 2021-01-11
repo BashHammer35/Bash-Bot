@@ -47,5 +47,5 @@ async def on_message(message):
         if command in commandList:
             await commandList[command]
 
-client.run('NzIzMDEwOTAxOTAwMjYzNDU3.XuraXw.5l1bemftEf9J87ddVAr-n62qbD0')
+client.run(BOT_TOKEN)
 
